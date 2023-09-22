@@ -13,12 +13,12 @@
         <input type="text" placeholder="Enter name">
         <br>
         
-        <h4>Select Subject</h4>
-        <select name="Subject">
+        <h4>Select Branch</h4>
+        <select name="Branch">
             <option value="CSE">CSE</option>
             <option value="CSIT">CSIT</option>
             <option value="IOT">IOT</option>
-            <option value="DL">DL</option>
+            <option value="ECE">ECE</option>
         </select>
         <br>
         
@@ -33,6 +33,24 @@
         <br>
         <label for="1012">
         <input type="radio" value="Female" name="Gender"> Female
+        </label>
+        <br>
+        
+        <h4> Select Subject</h4>
+        <label for="Math">
+            <input type="checkbox" value="Math" name="subject" id="101">Math
+        </label>
+        <br><br>
+        <label for="Physics">
+            <input type="checkbox" value="Physics" name="subject" id="102">Physics
+        </label>
+        <br><br>
+        <label for="Chemistry">
+            <input type="checkbox" value="Chemistry" name="subject" id="103">Chemistry
+        </label>
+        <br><br>
+        <label for="Computer Science">
+            <input type="checkbox" value="Computer Science" name="subject" id="104">Computer Science
         </label>
         <br>
 
