@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <header aria-orientation="horizontal"> Choice Filling </header>
+    <br>
+    <main>
+        <form action="/action.php">
+        <input type="text" placeholder="Enter name">
+        <br>
+        
+        <h4>Select Subject</h4>
+        <select name="Subject">
+            <option value="CSE">CSE</option>
+            <option value="CSIT">CSIT</option>
+            <option value="IOT">IOT</option>
+            <option value="DL">DL</option>
+        </select>
+        <br>
+        
+        <h4>Address</h4>
+        <textarea name="Address" id="101" placeholder="Please give your Address here"> Address </textarea>
+        <br>
+
+        <h4> Select Your Class</h4>
+        <label for="1011">
+        <input type="radio" value="Male" name="Gender"> Male <!--Choose only one--> 
+        </label>
+        <br>
+        <label for="1012">
+        <input type="radio" value="Female" name="Gender"> Female
+        </label>
+        <br>
+
+        </form>
+    </main>
+
+    <footer> </footer>
+</body>
+</html>
