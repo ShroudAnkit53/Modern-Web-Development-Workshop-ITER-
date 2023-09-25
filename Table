@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> </header>
+
+    <main>
+       <table border="1">
+          <thead>
+            <caption>Student Data</caption>
+            <tr>
+              <th>Name</th>
+              <th>Roll Number</th>
+              <th>Branch</th>
+              <th>Subject</th>
+              <th>Date Of Birth</th>  
+            </tr>
+          </thead>
+
+          <tbody>
+
+            <tr bgcolor="yellow">
+              <td>Harihar</td>
+              <td>1034</td>
+              <td bgcolor="green" rowspan="5">CSIT</td>
+              <td bgcolor="aqua" rowspan="5">MWDW</td>
+              <td>12/03/2003</td>
+            </tr>
+
+            <tr bgcolor="gold">
+                <td>Ankit</td>
+                <td>9037</td>
+                <td>05/06/2004</td>
+            </tr>
+
+            <tr bgcolor="grey">
+                <td>Rishita</td>
+                <td>1062</td>
+                <td>29/06/2004</td>
+            </tr>
+
+            <tr bgcolor="yellowgreen">
+                <td>Subhasmita</td>
+                <td>1056</td>
+                <td>20/07/2004</td>
+            </tr>
+
+            <tr bgcolor="red">
+                <td>Adyashree</td>
+                <td>1096</td>
+                <td>14/08/2004</td>
+            </tr>
+          </tbody>
+       </table>
+    </main>
+
+    <footer> </footer>
+
+</body>
+</html>
